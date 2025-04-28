@@ -1,0 +1,38 @@
+/* Additional custom styles */
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.list-group-item {
+    background-color: var(--bs-dark);
+    border-color: var(--bs-gray-700);
+}
+
+code {
+    background-color: var(--bs-gray-800);
+    color: var(--bs-info);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+}
+
+.alert {
+    border-radius: 0.5rem;
+}
+
+/* Icons */
+.bi {
+    margin-right: 0.5rem;
+}
+
+/* Add some spacing for better readability */
+p {
+    margin-bottom: 0.5rem;
+}
+
+/* For the status badge */
+.badge {
+    font-size: 1rem;
+    padding: 0.35rem 0.65rem;
+}
